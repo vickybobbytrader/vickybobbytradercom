@@ -7,7 +7,7 @@ export const courses: Course[] = [
     duration: '1 Year',
     students: '100+',
     rating: '4.8',
-    image: '/images/course1.png',
+    image: './images/course1.png',
     featured: undefined,
     price: undefined,
     features: undefined
@@ -29,7 +29,7 @@ export const courses: Course[] = [
     duration: '4 weeks',
     students: '250+',
     rating: '4.5',
-    image: '/images/course2.png',
+    image: './images/course2.png',
     enrollLink: 'https://rpy.club/lm/ZJfKalR7mi',
     featured: undefined,
     price: undefined,

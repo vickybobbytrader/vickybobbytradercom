@@ -22,7 +22,7 @@ export function Hero() {
           <div className="md:w-1/2 flex justify-center">
             <div className="bg-white p-2 rounded-lg shadow-xl">
             <img 
-              src="/images/vicky.jpg"
+              src="./images/vicky.jpg"
               alt="Trading Analysis"
               className="rounded-lg shadow-xl"
               width="400px"
