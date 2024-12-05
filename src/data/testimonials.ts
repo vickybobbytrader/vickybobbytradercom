@@ -1,6 +1,6 @@
 import { Testimonial } from '../types/testimonial';
 
-/**/export const testimonials: Testimonial[] = [
+export const testimonials: Testimonial[] = [
   {
     name: 'Rajesh Kumar',
     role: 'Professional Trader',
@@ -19,4 +19,4 @@ import { Testimonial } from '../types/testimonial';
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?fit=crop&w=150&h=150',
     content: 'The live trading sessions and personal mentoring have been invaluable. I have learned to manage risk effectively and grow my portfolio.'
   }
-]; 
+];

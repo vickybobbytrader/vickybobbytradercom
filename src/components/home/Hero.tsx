@@ -10,21 +10,22 @@ export function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Master the Art of <span className="text-black">Trading</span>
+              Master the Art of <span className='text-black'>Trading</span>
             </h1>
             <p className="text-xl mb-8">
               Learn professional trading strategies from experienced mentors and transform your trading journey.
             </p>
             <div className="flex space-x-4">
-              <Button variant="secondary"><a href='#courses'>Get Started</a></Button>
+              <Button variant="secondary"><a href="#courses">Get Started</a></Button>
             </div>
           </div>
-          <div className="md:w-1/2 flex ">
+          <div className="md:w-1/2 flex justify-center">
             <div className="bg-white p-2 rounded-lg shadow-xl">
             <img 
-              src="./images/vicky.jpg" 
+              src="/images/vicky.jpg"
               alt="Trading Analysis"
-             // className="rounded-lg shadow-xl"
+              className="rounded-lg shadow-xl"
+              width="400px"
             />
             </div>
           </div>

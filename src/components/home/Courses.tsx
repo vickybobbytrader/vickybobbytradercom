@@ -20,7 +20,7 @@ export function Courses() {
               <h3 className="text-2xl font-bold mb-4">{course.title}</h3>
               <div className="text-3xl font-bold mb-6">{course.price}</div>
               <ul className="space-y-4 mb-8">
-                {course.features.map((feature: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined, idx: React.Key | null | undefined) => (
+                {course.features.map((feature, idx) => (
                   <li key={idx} className="flex items-center">
                     <Check className={`w-5 h-5 mr-2 ${course.featured ? 'text-white' : 'text-blue-600'}`} />
                     {feature}
